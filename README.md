@@ -1,8 +1,8 @@
 # SQSnobFit Plugin
 
-This plugin allows Rxn Rover to connect with an instance of `SQSnobFit 
-<https://pypi.org/project/SQSnobFit/>`_, a Python reimplementation of the 
-`SNOBFIT <https://www.mat.univie.ac.at/~neum/software/snobfit/>`_ blackbox 
+This plugin allows Rxn Rover to connect with an instance of 
+[SQSnobFit](https://pypi.org/project/SQSnobFit/), a Python reimplementation of the 
+[SNOBFIT](https://www.mat.univie.ac.at/~neum/software/snobfit/) blackbox 
 optimization algorithm. A Python program is provided with the plugin to launch 
 an instance of SQSnobFit for use with this plugin. This program uses a 
 modified objective function with built-in communication capabilities. The 
