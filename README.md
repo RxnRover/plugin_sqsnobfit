@@ -19,7 +19,12 @@ This plugin requires Python 3.x. Download it from https://www.python.org/.
 
 Download this plugin by clicking the "Code" button in the top right of its 
 GitHub repository and selecting "Download ZIP". Extract the ZIP file into your 
-`<documents>/Plugins/Optimizers` directory. 
+`<documents>/Plugins/Optimizers` directory. Inside the plugin directory you 
+just extracted, there is a `plugin` directory, where the plugin code is stored,
+and an empty `sqsnobfit_remote_optimizer` directory. Download the SQSnobfit 
+remote optimization code from
+https://github.com/RxnRover/snobfit_remote_optimization and extract that ZIP
+file into the `sqsnobfit_remote_optimizer` subdirectory
 
 ### Setting up SQSnobFit Optimizer
 
@@ -49,7 +54,8 @@ configuration file with default values is provided as `default-config.json`.
 ## Plugin Scripts
 
 Scripts used by the plugin are located in the 
-`sqsnobfit_remote_optimizer/config` subdirectory. When creating a new script,
+`sqsnobfit_remote_optimizer/scripts` subdirectory. When creating a new script,
 ensure that it activates the `venv`, runs `src/main.py` with the correct 
 config file as a command line argument, and deactivates the `venv` when 
-complete.
+complete. An example start script file should be present in the scripts 
+directory.
