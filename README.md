@@ -13,7 +13,12 @@ configured by specifying a configuration file (example files are provided).
 
 ### Prerequisites
 
-This plugin requires Python 3.x. Download it from https://www.python.org/.
+This plugin requires the following to be installed beforehand: 
+
+- Python 3.x. Download it from https://www.python.org/.
+- ZeroMQ for LabVIEW. The latest version can be installed through the VI 
+  Package Manager (VIPM) or can be downloaded from the [ZeroMQ for LabVIEW
+  website](https://labview-zmq.sourceforge.io/).
 
 ### Getting the Plugin
 
