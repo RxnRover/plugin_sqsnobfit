@@ -1,0 +1,30 @@
+Install help and mock experiment tutorial for using in RxnRover can be found here: 
+
+https://rxnrover.github.io/RxnRover/user_resources/tutorials/mock_experiment/mock_experiment.html
+
+Prerequisites
+-------------
+This plugin requires the following to be installed beforehand:
+
+Python 3.x. Download it from https://www.python.org/.
+ZeroMQ for LabVIEW. The latest version can be installed through the VI Package Manager (VIPM) or can be downloaded from the ZeroMQ for LabVIEW website.
+
+Setting up SQSnobFit Optimizer
+------------------------------
+Inside <documents>/Plugins/Optimizers/SQSnobFit there are two folders, plugin, where the Rxn Rover plugin resides, and sqsnobfit_remote_optimizer, where the necessary code to launch an instance of SQSnobFit that can communicate with the plugin. If you are using Linux or Mac, simply type make install in the sqsnobfit_remote_optimizer directory to download and install dependencies into a virtual environment.
+
+If using Windows, open a terminal in the sqsnobfit_remote_optimizer directory and type the following commands:
+
+
+python -m venv venv             # Creates a virtual environment (venv)
+.\venv\Scripts\activate         # Activates the venv
+pip install -r requirements.txt # Installs dependencies in venv
+deactivate                      # Deactivates the venv
+
+
+Configurations
+--------------
+The SQSnobFit optimization can be configured by editing or creating a new config file in the sqsnobfit_remote_optimizer/config directory. An example configuration file with default values is provided as default-config.json.
+
+Plugin Scripts
+Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts subdirectory. When creating a new script, ensure that it activates the venv, runs src/main.py with the correct config file as a command line argument, and deactivates the venv when complete. An example start script file should be present in the scripts directory.
