@@ -9,8 +9,6 @@ modified objective function with built-in communication capabilities. The
 SQSnobFit algorithm, along with other aspects of the program, can be 
 configured by specifying a configuration file (example files are provided).
 
-## Installation
-
 ### Prerequisites
 
 This plugin requires the following to be installed beforehand: 
@@ -20,7 +18,12 @@ This plugin requires the following to be installed beforehand:
   Package Manager (VIPM) or can be downloaded from the [ZeroMQ for LabVIEW
   website](https://labview-zmq.sourceforge.io/).
 
-### Getting the Plugin
+## Installation
+
+1. Download the latest `.vip` installer from the [Releases page](https://github.com/RxnRover/plugin_sqsnobfit/releases/latest).  
+2. Double-click the downloaded `.vip` file to install it with VIPM.
+
+### Manual Installation (optional)
 
 Download this plugin by clicking the "Code" button in the top right of its 
 GitHub repository and selecting "Download ZIP". Extract the ZIP file into your 
@@ -41,7 +44,9 @@ Linux or Mac, simply type `make install` in the `sqsnobfit_remote_optimizer`
 directory to download and install dependencies into a virtual environment.
 
 If using Windows, open a terminal in the `sqsnobfit_remote_optimizer` 
-directory and type the following commands:
+directory, but make sure it's a Command Prompt(CMD) window not PowerShell.
+
+In the terminal window type the following commands:
 
 ```batch
 python -m venv venv             # Creates a virtual environment (venv)
