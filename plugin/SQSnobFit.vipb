@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-07-01 15:48:37" Modified_Date="2025-08-20 09:38:58" Creator="britt" Comments="" ID="3eaf128ecc66f6f3a85b278abe0e940a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-07-01 15:48:37" Modified_Date="2025-08-30 15:37:51" Creator="britt" Comments="" ID="b5a99d6352d1144d080a66d61993d682">
   <Library_General_Settings>
     <Package_File_Name>RxnRover_lib_SQSnobFit</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\LabView Builds\plugins\plugin_sqsnobfit</Library_Output_Folder>
@@ -245,7 +245,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>.</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F9A310A229ABF3AA6BC5DC0EBBDCEC0</GUID>
+      <GUID>BCA26E873F6EE8EBC61F165594C34D40</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -336,7 +336,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>Main.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C04139EEA603FFCC534E5DD3AE32B96E</GUID>
+      <GUID>F198AE9611D08D22B42C07584A0289ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -483,7 +483,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\Instrument Manager Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1A414BDDB3FECD51B945DCF8251FE6BF</GUID>
+      <GUID>C4123E7F6FED8C6133E240689A1BB101</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -518,7 +518,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>SubVIs\Close Instrument Safely.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8E204AEB4B28F94860A83D9FCE56CA93</GUID>
+      <GUID>09B6F53D0FFA9340E8B818D3F4B49A89</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -595,7 +595,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>support\Cluster to Variant Attributes.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2CA156093E123D6B97A2F704C084881A</GUID>
+      <GUID>19799740D642B492D3057AE7CBAF69C3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -686,7 +686,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\Acquisition\Stop Acquisition.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CB5B3A1BF2D1AB48B8F0DADD8D358D13</GUID>
+      <GUID>7045B126D71B59DA97CB7E72DF564B6D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -721,7 +721,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\Data Display Loop\Parameter Array to String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>31F3C2F607F583B7281E745C9CFC22CE</GUID>
+      <GUID>89D4C74FF8E05B7BA8C3B163BB713B37</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -756,7 +756,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\Event Handler\Error Handler - Event Handling Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>640D5576E7C27759A1DB235C3068DD3E</GUID>
+      <GUID>26EFE46B9BC8C4539C3EBE89DBD7AA32</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -819,7 +819,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\Instrument Manager\Error Handler - Instrument Manager Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A22C960C1F038CDBBD1C8627745F97C9</GUID>
+      <GUID>9B3AB4B5A148FBB2B0D6DE541DC761EE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -966,7 +966,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\Logging\String to Snake Case.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8743AA722EECD47367DB1C263F532281</GUID>
+      <GUID>2AC1F302347372F1E3A7DC751D0BE29B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1029,7 +1029,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\Remote Connection Manager\Remote Connection Manager Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56CC82FDB3307784C46A77473541CDDA</GUID>
+      <GUID>670DB2FCF986577A113EC06BBCB61B5A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1064,7 +1064,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\System Control\Error Handler - System Control Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F450E5EF74300B3FECD2D0C0B55C076E</GUID>
+      <GUID>D03ABD9B62F035A5F09D0D210AB193C5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1113,7 +1113,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\UI Manager\Update Data Plot.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8779DEC28D5F04FD7846AA197733FABA</GUID>
+      <GUID>394BFC778C1F5A3CF37FCF42B8692F93</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1218,7 +1218,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>support\Message Queue\Obtain Message Queue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20ADE020316488C17C0246FC8DDCBEB9</GUID>
+      <GUID>EC7E56B0D3803C8743C9015F0400D96A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1281,7 +1281,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>support\User Event - Stop\Fire User Event - Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D2A284567855E1D2560F74D3D7C144A1</GUID>
+      <GUID>C7F0E5680EB2A0FBC4F2886CBC334D77</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1316,7 +1316,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>.</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7EE6310B232DC645F8339E956825D3CB</GUID>
+      <GUID>85E56DA6D139FD6620E3118C4D61F9A5</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1379,7 +1379,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1FA0629FF88DC5DBC21F2173E645224</GUID>
+      <GUID>1787C36D54CD81FCACE989998189CA1B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1470,7 +1470,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\UI Manager</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C2EDD5388FA6661F1D0FB0BCEEB8952E</GUID>
+      <GUID>01DA655042E029F07D1D8C46CC377CCC</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1505,7 +1505,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>support\Message Queue</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20E68AADD91ABB8F4B6600E72CE32355</GUID>
+      <GUID>1B1A7140C837FC86E6B5E37F2452135F</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1596,7 +1596,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>Typedefs\System Control Data.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0741A50017376CC7021437BD39412A22</GUID>
+      <GUID>84E91B2BFB8972F4F6E3B3DDCAA4C3A0</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1645,7 +1645,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\Acquisition\Hardware Configuration.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B0AEB24487A4C380A240E02BFA8287E</GUID>
+      <GUID>25286072E73BB065A4512568473E2A63</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1680,7 +1680,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\Instrument Manager\Instrument State.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F575FBEF66B9A2760DEFA9ADD9D0EC67</GUID>
+      <GUID>CBA58779846C717098F959421AD00DCF</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1771,7 +1771,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\Logging\Logging State.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CBCB83F64CE25C4F1F541E72674676D2</GUID>
+      <GUID>E33DC80ED9FF3A57860BE9384C0A2A23</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1820,7 +1820,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\Remote Connection Manager\RCM Sender Data.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B4EE02ADA3B9BBCA4811A7ACD88395EA</GUID>
+      <GUID>1E0872E7C7DFE1CFDAA367B4D58B315D</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1855,7 +1855,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\UI Manager\support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DC5469A3140203F4D87C2B02492761F2</GUID>
+      <GUID>1B692DEF2CA6138B7715A062372F6C0A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1918,7 +1918,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>process loops\UI Manager\support\UI Display State.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E6B3632EE6B48EECBB87FABD92C29F15</GUID>
+      <GUID>6EF35EFEC5377F97ED29D24A4A120E45</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1967,7 +1967,7 @@ Scripts used by the plugin are located in the sqsnobfit_remote_optimizer/scripts
         <Path>support\Message Queue\Message Cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB55D13124EFC17366E85BACE768C196</GUID>
+      <GUID>DBAA2FC962DC3A443EB6CBA1F8650D61</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
